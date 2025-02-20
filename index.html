@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Profile</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1c1c1c, #2e2e2e); /* Dark Premium Background */
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(135deg, #c79750, #d4af37);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        header img {
+    width: 80px; /* Adjusted for mobile */
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    animation: bounce 2s infinite alternate;
+}
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            animation: fadeIn 2s forwards;
+        }
+        h2 {
+            color: #d4af37;
+            border-bottom: 2px solid #d4af37;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.8;
+            color: #ddd;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            margin-top: 25px;
+        }
+        .contact h2 {
+            font-size: 22px;
+            color: #d4af37;
+            margin-bottom: 15px;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+        .contact-info a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            background: #d4af37;
+            color: #000;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+            width: 250px;
+            justify-content: center;
+            box-shadow: 0px 5px 15px rgba(212, 175, 55, 0.5);
+        }
+        .contact-info a:hover {
+            background: #b8912d;
+            box-shadow: 0px 5px 15px rgba(255, 215, 0, 0.8);
+        }
+
+        /* Interest Section */
+        .interest-section {
+            text-align: center;
+            margin-top: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .interest-section h2 {
+            color: #d4af37;
+            border-bottom: 2px solid #d4af37;
+            padding-bottom: 5px;
+        }
+        .interest-section p {
+            color: #ddd;
+        }
+        .interest-section a {
+            padding: 12px 20px;
+            background-color: #d4af37;
+            color: black;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s ease;
+            box-shadow: 0px 5px 15px rgba(212, 175, 55, 0.5);
+        }
+        .interest-section a:hover {
+            background-color: #b8912d;
+            box-shadow: 0px 5px 15px rgba(255, 215, 0, 0.8);
+        }
+
+        /* Quote Section */
+        .quote-section {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #f1c40f;
+            animation: fadeIn 3s ease-in-out;
+            font-style: italic;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/201/201634.png" alt="Teacher Cartoon">
+        Welcome to My Profile!
+    </header>
+    
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I am <strong>Prionta Saha</strong>, an experienced tutor specializing in <strong>Math, Physics, Chemistry, and English</strong>. I have a passion for teaching and helping students achieve academic success.</p>
+        
+        <h2>Education</h2>
+        <p>Studying at - <strong>North South University (NSU)</strong></p>
+        
+        <h2>Experience</h2>
+        <p>Several years of tutoring experience in <strong>Math, Physics, Chemistry, and English</strong>. Helping students excel in their studies through personalized learning techniques.</p>
+        
+        <h2>Skills</h2>
+        <p>✔ Strong subject knowledge<br>✔ Effective teaching strategies<br>✔ Excellent communication skills</p>
+        
+        <!-- Contact Me Section -->
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <a href="tel:+8801842179128">📞 Call Me: 01842179128</a>
+                <a href="mailto:pksaha500@gmail.com">📧 Email Me</a>
+                <a href="https://www.facebook.com/share/1B9QGzKwNf/" target="_blank">📘 Visit My Facebook Profile</a>
+                <a href="https://wa.me/8801842179128" target="_blank">💬 Chat on WhatsApp</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interest Section -->
+    <div class="interest-section">
+        <h2>Interested in Learning?</h2>
+        <p>If you're interested in learning, please fill up this form and give me a knock on my WhatsApp number!</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSelqaov62Ns7dAcnU6kjN15-jd4nzTLnCPms5EfD8xfCxbhnQ/viewform?usp=sharing" target="_blank">📑 Fill Up the Form</a>
+    </div>
+
+    <!-- Motivational Quote -->
+    <div class="quote-section">
+        "📚 Keep Learning, Keep Growing! 🚀"
+    </div>
+</body>
+</html>
